@@ -1,0 +1,22 @@
+.song-title {
+    color: bisque;
+}
+
+.playlist.card {
+    min-height: 420px;
+    margin-bottom: 40px;
+    transition: background-color 400ms;
+}
+
+.playlist.card .card-subtitle {
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.playlist.card:hover {
+    background-color: lightgrey;
+}
+
+.playlist.card.promoted .card-body {
+    padding-top: 25%;
+}
