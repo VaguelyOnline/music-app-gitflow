@@ -3,10 +3,10 @@
 @section('content')
 
     <h2>
-        Details for: {{ $artist->name }}
+        You are viewing: <strong>{{ $artist->name }}</strong>
     </h2>
 
-    <h4>Songs ({{ $artist->songs->count() }} songs):</h4>
+    <h4>Songs the artist has made: ({{ $artist->songs->count() }} songs):</h4>
 
     <ol>
         @foreach($artist->songs->sortBy('name') as $song)
